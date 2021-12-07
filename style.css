@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(8, 114, 96, 0.911);
+}
+.container {
+  padding-top: 6em;
+  text-align: center;
+}
+p,
+#cat_result {
+  max-width: 30em;
+  color: white;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times,
+    serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 30px auto;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 2em;
+  font-variant: small-caps;
+}
+#cat_btn {
+  background-color: rgb(15, 66, 90);
+  color: white;
+  border: thin solid white;
+  height: 40px;
+  width: 200px;
+  border-radius: 2px;
+}
